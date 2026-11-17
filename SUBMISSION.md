@@ -12,12 +12,12 @@ session as @owoade.
 - **Tagline:** Recurring payments that run themselves — set it and forget it
 - **Track:** Set It and Forget It
 - **Team:** Owoade (solo) — DoraHacks @owoade, GitHub jozzy001mail
-- **Live demo:** https://app-49qc38t8w-owoade1.vercel.app
+- **Live demo:** https://app-omega-eight-12.vercel.app
 - **GitHub repo (public):** https://github.com/jozzy001mail/drippay
 - **Demo video:** TBD — record after the live deploy (script in DEMO.md)
-- **Deployed contracts:** TBD after `./script/deploy.sh`
-  - DripVault (Base Sepolia 84532): TBD
-  - DripReactive (Lasna 5318007): TBD
+- **Deployed contracts (live 2026-11-17, verified on-chain):**
+  - DripVault (Base Sepolia 84532): 0x0aF42A25922A05Db33064c60cB74e41F8EE34C6a (funded 0.015 ETH)
+  - DripReactive (Lasna 5318007): 0x0aF42A25922A05Db33064c60cB74e41F8EE34C6a (funded 0.05 lREACT)
 - **Loop transactions (origin event → reactive tx → callback):** TBD after deploy
 
 ## Short description (paste-ready)
@@ -59,9 +59,10 @@ and never want to think about again.
 - [x] Built during the event (started 17 Nov 2026)
 - [x] Public repo, open source
 - [x] Reactive contract does real work (mirrors + drives releases)
-- [x] Live, usable demo (front end live; contracts pending testnet funds)
-- [ ] Deployed contract addresses + loop transaction hashes (need faucet funds)
-- [ ] Demo video under 3 minutes (script in DEMO.md; record after deploy)
+- [x] Live, usable demo (front end live with deployed contract addresses)
+- [x] Deployed contract addresses (vault + reactive verified on-chain, wiring checked both ways)
+- [ ] Loop transaction hashes (need a real schedule created + a CRON tick + callback — next step)
+- [ ] Demo video under 3 minutes (script in DEMO.md; record after the live loop runs)
 
 ## Deadline
 

@@ -38,7 +38,7 @@ DripVault ──ScheduleCreated──▶ DripReactive (Lasna)
 | Piece | State |
 |---|---|
 | Contracts (`forge test`) | **20/20 pass**, incl. a full mocked end-to-end loop (event → react → callback → release → mirror update) |
-| Front end | **Live**: https://app-49qc38t8w-owoade1.vercel.app (shows "not deployed yet" until contracts land) |
+| Front end | **Live**: https://app-omega-eight-12.vercel.app (contracts live since 17 Nov 2026) |
 | Live contracts | **Not yet deployed** — waiting on free testnet funds (see below) |
 | Demo video | **Not yet recorded** — needs the live loop first |
 | DoraHacks submission | **Not yet submitted** — form needs a signed-in session (see `SUBMISSION.md`) |
