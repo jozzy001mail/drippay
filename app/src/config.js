@@ -6,13 +6,13 @@ export const CONFIG = {
   vaultChainId: 84532,
   vaultChainName: "Base Sepolia",
   vaultRpc: "https://sepolia.base.org",
-  vaultAddress: "", // TBD after deploy, e.g. "0x..."
+  vaultAddress: "0x0aF42A25922A05Db33064c60cB74e41F8EE34C6a", // deployed 2026-11-17, Base Sepolia
   vaultExplorer: "https://sepolia.basescan.org",
   // Reactive Lasna — where the DripReactive contract lives.
   reactiveChainId: 5318007,
   reactiveChainName: "Reactive Lasna",
   reactiveRpc: "https://lasna-rpc.rnk.dev/",
-  reactiveAddress: "", // TBD after deploy, e.g. "0x..."
+  reactiveAddress: "0x0aF42A25922A05Db33064c60cB74e41F8EE34C6a", // deployed 2026-11-17, Reactive Lasna
   reactiveExplorer: "https://lasna.reactscan.net",
   // Callback proxy on Base Sepolia (from dev.reactive.network).
   baseSepoliaProxy: "0x476F44b11F5C942c58f4c8E3d0300E5710743585",

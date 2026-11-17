@@ -17,7 +17,7 @@ import { DripVault } from "../src/DripVault.sol";
 contract DeployVault is Script {
     function run() external {
         address reactive = vm.envAddress("REACTIVE_ADDR");
-        IPayable proxy = IPayable(vm.envAddress("PROXY_ADDR"));
+        IPayable proxy = IPayable(payable(vm.envAddress("PROXY_ADDR")));
         uint256 fund = vm.envOr("VAULT_FUND_WEI", uint256(0.02 ether));
 
         vm.startBroadcast();
